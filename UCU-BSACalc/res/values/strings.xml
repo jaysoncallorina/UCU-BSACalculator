@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">UCU-BSACalc</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_basic_equation">BasicEquation</string>
+    <string name="title_activity_asset_calc">AssetCalc</string>
+    <string name="title_activity_ebit">EBIT</string>
+    <string name="title_activity_equity_calc">EquityCalc</string>
+    <string name="title_activity_gross_profit_calc">GrossProfitCalc</string>
+    <string name="title_activity_liabilities_calc">LiabilitiesCalc</string>
+    <string name="title_activity_net_profit_calc">NetProfitCalc</string>
+    <string name="title_activity_operating_profit_calc">OperatingProfitCalc</string>
+
+</resources>

@@ -1,0 +1,108 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff233"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".BasicEquation" >
+    
+    <RelativeLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+    <Button
+        android:id="@+id/btnAssets"
+        android:layout_width="227dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="14dp"
+        android:background="#efb002"
+        android:onClick="asset"
+        android:text="Assets"
+        android:textColor="#ffffff"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnEBIT"
+        android:layout_width="227dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btnAssets"
+        android:layout_below="@+id/btnAssets"
+        android:layout_marginTop="5dp"
+        android:background="#efb002"
+        android:onClick="EBIT"
+        android:text="Earnings Before Interest and Taxes"
+        android:textColor="#ffffff"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnEquity"
+        android:layout_width="227dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btnEBIT"
+        android:layout_below="@+id/btnEBIT"
+        android:layout_marginTop="5dp"
+        android:background="#efb002"
+        android:onClick="Equity"
+        android:text="Equity"
+        android:textColor="#ffffff"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnLiab"
+        android:layout_width="227dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btnGP"
+        android:layout_below="@+id/btnGP"
+        android:layout_marginTop="5dp"
+        android:background="#efb002"
+        android:onClick="Liab"
+        android:text="Liabilities"
+        android:textColor="#ffffff"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnNet"
+        android:layout_width="227dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btnLiab"
+        android:layout_below="@+id/btnLiab"
+        android:layout_marginTop="5dp"
+        android:background="#efb002"
+        android:onClick="Net"
+        android:text="Net Profit"
+        android:textColor="#ffffff"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnOP"
+        android:layout_width="227dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btnNet"
+        android:layout_below="@+id/btnNet"
+        android:layout_marginTop="5dp"
+        android:background="#efb002"
+        android:onClick="OP"
+        android:text="Operating Profit"
+        android:textColor="#ffffff"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnGP"
+        android:layout_width="227dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btnEquity"
+        android:layout_below="@+id/btnEquity"
+        android:layout_marginTop="5dp"
+        android:background="#efb002"
+        android:onClick="GP"
+        android:text="Gross Profit"
+        android:textColor="#ffffff"
+        android:textStyle="bold" />
+
+</RelativeLayout>
+</ScrollView>

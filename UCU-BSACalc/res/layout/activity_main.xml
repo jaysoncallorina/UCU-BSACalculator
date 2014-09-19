@@ -1,0 +1,103 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff233"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="227dp"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/Button01"
+            android:layout_alignRight="@+id/Button01"
+            android:layout_below="@+id/Button01"
+            android:layout_marginTop="10dp"
+            android:background="#efb002"
+            android:text="Depreciation"
+            android:textColor="#ffffff"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="227dp"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/button3"
+            android:layout_alignRight="@+id/button3"
+            android:layout_below="@+id/button3"
+            android:layout_marginTop="10dp"
+            android:background="#efb002"
+            android:text="Liquidity Ratios"
+            android:textColor="#ffffff"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/Button01"
+            android:layout_width="227dp"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/button2"
+            android:layout_below="@+id/button2"
+            android:layout_marginTop="10dp"
+            android:background="#efb002"
+            android:text="Debt Ratios"
+            android:textColor="#ffffff"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="227dp"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/button4"
+            android:layout_below="@+id/button4"
+            android:layout_marginTop="10dp"
+            android:background="#efb002"
+            android:text="Market Ratios"
+            android:textColor="#ffffff"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/Button02"
+            android:layout_width="227dp"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/button5"
+            android:layout_below="@+id/button5"
+            android:layout_marginTop="10dp"
+            android:background="#efb002"
+            android:text="Profitability Ratios"
+            android:textColor="#ffffff"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnBasicEquation"
+            android:layout_width="227dp"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/button2"
+            android:layout_alignParentTop="true"
+            android:background="#efb002"
+            android:onClick="BasicEq"
+            android:text="Basic Equations"
+            android:textColor="#ffffff"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="227dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btnBasicEquation"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:background="#efb002"
+            android:text="Activity/Efficiency Ratios"
+            android:textColor="#ffffff"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+</ScrollView>

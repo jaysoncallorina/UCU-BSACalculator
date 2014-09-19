@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.edu.ucuccs.ucu_bsacalc"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="18" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.edu.ucuccs.ucu_bsacalc.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.edu.ucuccs.ucu_bsacalc.BasicEquation"
+            android:label="@string/title_activity_basic_equation" >
+            <meta-data
+                android:name="android.support.BasicEquation"
+                android:value="com.example.myfirstapp.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.edu.ucuccs.ucu_bsacalc.AssetCalc"
+            android:label="@string/title_activity_asset_calc" >
+            <meta-data
+                android:name="android.support.AssetCalc"
+                android:value="com.example.myfirstapp.BasicEquation" />
+        </activity>
+        <activity
+            android:name="com.edu.ucuccs.ucu_bsacalc.EBIT"
+            android:label="@string/title_activity_ebit" >
+            <meta-data
+                android:name="android.support.EBIT"
+                android:value="com.example.myfirstapp.BasicEquation" />
+        </activity>
+        <activity
+            android:name="com.edu.ucuccs.ucu_bsacalc.EquityCalc"
+            android:label="@string/title_activity_equity_calc" >
+        <meta-data
+                android:name="android.support.EquityCalc"
+                android:value="com.example.myfirstapp.BasicEquation" />
+        </activity>
+        <activity
+            android:name="com.edu.ucuccs.ucu_bsacalc.GrossProfitCalc"
+            android:label="@string/title_activity_gross_profit_calc" >
+        <meta-data
+                android:name="android.support.GrossProfitCalc"
+                android:value="com.example.myfirstapp.BasicEquation" />
+        </activity>
+        <activity
+            android:name="com.edu.ucuccs.ucu_bsacalc.LiabilitiesCalc"
+            android:label="@string/title_activity_liabilities_calc" >
+        <meta-data
+                android:name="android.support.LiabilitiesCalc"
+                android:value="com.example.myfirstapp.BasicEquation" />
+        </activity>
+        <activity
+            android:name="com.edu.ucuccs.ucu_bsacalc.NetProfitCalc"
+            android:label="@string/title_activity_net_profit_calc" >
+        <meta-data
+                android:name="android.support.NetProfitCalc"
+                android:value="com.example.myfirstapp.BasicEquation" />
+        </activity>
+        <activity
+            android:name="com.edu.ucuccs.ucu_bsacalc.OperatingProfitCalc"
+            android:label="@string/title_activity_operating_profit_calc" >
+        <meta-data
+                android:name="android.support.OperatingPofitCalc"
+                android:value="com.example.myfirstapp.BasicEquation" />
+        </activity>
+    </application>
+
+</manifest>
