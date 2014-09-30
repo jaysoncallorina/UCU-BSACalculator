@@ -9,6 +9,7 @@ import android.widget.Button;
 public class MainActivity extends Activity {
 
 	Button BtnBasicEquation;
+	Button btnefficiency;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -16,6 +17,7 @@ public class MainActivity extends Activity {
 		setContentView(R.layout.activity_main);
 
 		BtnBasicEquation = (Button) findViewById(R.id.btnBasicEquation);
+		btnefficiency = (Button) findViewById(R.id.btnefficiency);
 
 	}
 
@@ -23,6 +25,12 @@ public class MainActivity extends Activity {
 
 		Intent BE = new Intent(this, BasicEquation.class);
 		startActivity(BE);
+	
+	}
+	public void clickEfficient(View v) {
+
+		Intent E = new Intent(this, Efficiency_Ratios.class);
+		startActivity(E);
 	
 	}
 

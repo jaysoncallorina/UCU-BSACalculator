@@ -12,5 +12,11 @@
     <string name="title_activity_liabilities_calc">LiabilitiesCalc</string>
     <string name="title_activity_net_profit_calc">NetProfitCalc</string>
     <string name="title_activity_operating_profit_calc">OperatingProfitCalc</string>
+    <string name="title_activity_efficiency__ratios">Efficiency_Ratios</string>
+    <string name="title_activity_asset_turnover_calc">AssetTurnoverCalc</string>
+    <string name="title_activity_acpcalc">ACPCalc</string>
+    <string name="title_activity_cash_con_cycle_calc">CashConCycleCalc</string>
+    <string name="title_activity_icpcalc">ICPCalc</string>
+    <string name="title_activity_icrcalc">ICRCalc</string>
 
 </resources>

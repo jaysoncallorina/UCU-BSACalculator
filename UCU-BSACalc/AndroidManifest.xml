@@ -46,37 +46,61 @@
         <activity
             android:name="com.edu.ucuccs.ucu_bsacalc.EquityCalc"
             android:label="@string/title_activity_equity_calc" >
-        <meta-data
+            <meta-data
                 android:name="android.support.EquityCalc"
                 android:value="com.example.myfirstapp.BasicEquation" />
         </activity>
         <activity
             android:name="com.edu.ucuccs.ucu_bsacalc.GrossProfitCalc"
             android:label="@string/title_activity_gross_profit_calc" >
-        <meta-data
+            <meta-data
                 android:name="android.support.GrossProfitCalc"
                 android:value="com.example.myfirstapp.BasicEquation" />
         </activity>
         <activity
             android:name="com.edu.ucuccs.ucu_bsacalc.LiabilitiesCalc"
             android:label="@string/title_activity_liabilities_calc" >
-        <meta-data
+            <meta-data
                 android:name="android.support.LiabilitiesCalc"
                 android:value="com.example.myfirstapp.BasicEquation" />
         </activity>
         <activity
             android:name="com.edu.ucuccs.ucu_bsacalc.NetProfitCalc"
             android:label="@string/title_activity_net_profit_calc" >
-        <meta-data
+            <meta-data
                 android:name="android.support.NetProfitCalc"
                 android:value="com.example.myfirstapp.BasicEquation" />
         </activity>
         <activity
             android:name="com.edu.ucuccs.ucu_bsacalc.OperatingProfitCalc"
             android:label="@string/title_activity_operating_profit_calc" >
-        <meta-data
+            <meta-data
                 android:name="android.support.OperatingPofitCalc"
                 android:value="com.example.myfirstapp.BasicEquation" />
+        </activity>
+        <activity
+            android:name="com.edu.ucuccs.ucu_bsacalc.Efficiency_Ratios"
+            android:label="@string/title_activity_efficiency__ratios" >
+        </activity>
+        <activity
+            android:name="com.edu.ucuccs.ucu_bsacalc.AssetTurnoverCalc"
+            android:label="@string/title_activity_asset_turnover_calc" >
+        </activity>
+        <activity
+            android:name="com.edu.ucuccs.ucu_bsacalc.ACPCalc"
+            android:label="@string/title_activity_acpcalc" >
+        </activity>
+        <activity
+            android:name="com.edu.ucuccs.ucu_bsacalc.CashConCycleCalc"
+            android:label="@string/title_activity_cash_con_cycle_calc" >
+        </activity>
+        <activity
+            android:name="com.edu.ucuccs.ucu_bsacalc.ICPCalc"
+            android:label="@string/title_activity_icpcalc" >
+        </activity>
+        <activity
+            android:name="com.edu.ucuccs.ucu_bsacalc.ICRCalc"
+            android:label="@string/title_activity_icrcalc" >
         </activity>
     </application>
 

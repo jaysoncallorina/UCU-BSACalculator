@@ -1,0 +1,134 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff233"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".Efficiency_Ratios" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/btnAT"
+            android:layout_width="227dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="14dp"
+            android:background="#efb002"
+            android:onClick="clickAT"
+            android:text="Asset Turnover"
+            android:textColor="#ffffff"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnACP"
+            android:layout_width="227dp"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/btnAT"
+            android:layout_below="@+id/btnAT"
+            android:layout_marginTop="5dp"
+            android:background="#efb002"
+            android:onClick="clickACP"
+            android:text="Average Collection Period"
+            android:textColor="#ffffff"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnCCC"
+            android:layout_width="227dp"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/btnACP"
+            android:layout_below="@+id/btnACP"
+            android:layout_marginTop="5dp"
+            android:background="#efb002"
+            android:onClick="clickCCC"
+            android:text="Cash Conversion Cycle"
+            android:textColor="#ffffff"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnICR"
+            android:layout_width="227dp"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/btnICP"
+            android:layout_below="@+id/btnICP"
+            android:layout_marginTop="5dp"
+            android:background="#efb002"
+            android:onClick="clickICR"
+            android:text="Inventory Conversion Ratio"
+            android:textColor="#ffffff"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnIT"
+            android:layout_width="227dp"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/btnICR"
+            android:layout_below="@+id/btnICR"
+            android:layout_marginTop="5dp"
+            android:background="#efb002"
+            android:onClick="Net"
+            android:text="Inventory Turnover"
+            android:textColor="#ffffff"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnPCP"
+            android:layout_width="227dp"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/btnIT"
+            android:layout_below="@+id/btnIT"
+            android:layout_marginTop="5dp"
+            android:background="#efb002"
+            android:onClick="OP"
+            android:text="Payables Conversion Period"
+            android:textColor="#ffffff"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnDSO"
+            android:layout_width="227dp"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/btnPCP"
+            android:layout_below="@+id/btnPCP"
+            android:layout_marginTop="5dp"
+            android:background="#efb002"
+            android:onClick="OP"
+            android:text="Receivables Conversion Period, DSO Ratio"
+            android:textColor="#ffffff"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnRTR"
+            android:layout_width="227dp"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/btnDSO"
+            android:layout_below="@+id/btnDSO"
+            android:layout_marginTop="5dp"
+            android:background="#efb002"
+            android:onClick="OP"
+            android:text="Receivables Turnover Ratio"
+            android:textColor="#ffffff"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnICP"
+            android:layout_width="227dp"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/btnCCC"
+            android:layout_below="@+id/btnCCC"
+            android:layout_marginTop="5dp"
+            android:background="#efb002"
+            android:onClick="clickICP"
+            android:text="Inventory Conversion Period"
+            android:textColor="#ffffff"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+</ScrollView>

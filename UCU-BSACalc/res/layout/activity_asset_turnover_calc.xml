@@ -1,4 +1,4 @@
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -7,16 +7,42 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context=".EBIT" >
+    tools:context=".AssetTurnoverCalc" >
+
+    <RelativeLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/txtTotalAssets"
+        android:layout_below="@+id/txtTotalAssets"
+        android:layout_marginTop="5dp"
+        android:layout_centerVertical="true"
+        android:text="Asset Turnover Ratio:" />
 
     <EditText
-        android:id="@+id/txtRevenue"
+        android:id="@+id/txtNetSales"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/textView1"
         android:layout_centerHorizontal="true"
         android:ems="10"
         android:inputType="number" />
+
+    <EditText
+        android:id="@+id/txtTotalAssets"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_below="@+id/textView2"
+        android:ems="10"
+        android:inputType="number" >
+
+        <requestFocus />
+    </EditText>
 
     <Button
         android:id="@+id/btnCalc"
@@ -31,42 +57,22 @@
         android:textStyle="bold" />
 
     <TextView
-        android:id="@+id/textView1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/textView2"
-        android:layout_alignParentTop="true"
-        android:layout_marginTop="68dp"
-        android:text="Revenue" />
-
-    <TextView
-        android:id="@+id/textView3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/btnCalc"
-        android:layout_centerVertical="true"
-        android:text="EBIT:" />
-
-    <EditText
-        android:id="@+id/txtOE"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/txtRevenue"
-        android:layout_below="@+id/textView2"
-        android:ems="10"
-        android:inputType="number" >
-
-        <requestFocus />
-    </EditText>
-
-    <TextView
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/textView3"
-        android:layout_below="@+id/txtRevenue"
-        android:layout_marginTop="22dp"
-        android:text="Operating Expenses" />
+        android:layout_alignLeft="@+id/txtNetSales"
+        android:layout_below="@+id/txtNetSales"
+        android:layout_marginTop="19dp"
+        android:text="Total Sales" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/txtNetSales"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="74dp"
+        android:text="Net Sales" />
 
     <TextView
         android:id="@+id/txtAnswer"
@@ -78,3 +84,4 @@
         android:textSize="50sp" />
 
 </RelativeLayout>
+</ScrollView>

@@ -11,20 +11,7 @@
 
     <RelativeLayout
         android:layout_width="fill_parent"
-        android:layout_height="fill_parent" >
-
-        <Button
-            android:id="@+id/button3"
-            android:layout_width="227dp"
-            android:layout_height="wrap_content"
-            android:layout_alignLeft="@+id/Button01"
-            android:layout_alignRight="@+id/Button01"
-            android:layout_below="@+id/Button01"
-            android:layout_marginTop="10dp"
-            android:background="#efb002"
-            android:text="Depreciation"
-            android:textColor="#ffffff"
-            android:textStyle="bold" />
+        android:layout_height="415dp" >
 
         <Button
             android:id="@+id/button4"
@@ -36,18 +23,6 @@
             android:layout_marginTop="10dp"
             android:background="#efb002"
             android:text="Liquidity Ratios"
-            android:textColor="#ffffff"
-            android:textStyle="bold" />
-
-        <Button
-            android:id="@+id/Button01"
-            android:layout_width="227dp"
-            android:layout_height="wrap_content"
-            android:layout_alignLeft="@+id/button2"
-            android:layout_below="@+id/button2"
-            android:layout_marginTop="10dp"
-            android:background="#efb002"
-            android:text="Debt Ratios"
             android:textColor="#ffffff"
             android:textStyle="bold" />
 
@@ -67,8 +42,9 @@
             android:id="@+id/Button02"
             android:layout_width="227dp"
             android:layout_height="wrap_content"
-            android:layout_alignLeft="@+id/button5"
-            android:layout_below="@+id/button5"
+            android:layout_alignLeft="@+id/btnefficiency"
+            android:layout_alignParentBottom="true"
+            android:layout_below="@id/button4"
             android:layout_marginTop="10dp"
             android:background="#efb002"
             android:text="Profitability Ratios"
@@ -79,8 +55,9 @@
             android:id="@+id/btnBasicEquation"
             android:layout_width="227dp"
             android:layout_height="wrap_content"
-            android:layout_alignLeft="@+id/button2"
+            android:layout_alignLeft="@+id/Button01"
             android:layout_alignParentTop="true"
+            android:layout_marginTop="20dp"
             android:background="#efb002"
             android:onClick="BasicEq"
             android:text="Basic Equations"
@@ -88,16 +65,42 @@
             android:textStyle="bold" />
 
         <Button
-            android:id="@+id/button2"
+            android:id="@+id/button3"
+            android:layout_width="227dp"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/Button01"
+            android:layout_below="@+id/Button01"
+            android:layout_marginTop="10dp"
+            android:background="#efb002"
+            android:text="Depreciation"
+            android:textColor="#ffffff"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/Button01"
+            android:layout_width="227dp"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/btnefficiency"
+            android:layout_below="@+id/btnefficiency"
+            android:layout_marginTop="10dp"
+            android:background="#efb002"
+            android:text="Debt Ratios"
+            android:textColor="#ffffff"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnefficiency"
             android:layout_width="227dp"
             android:layout_height="wrap_content"
             android:layout_below="@+id/btnBasicEquation"
             android:layout_centerHorizontal="true"
             android:layout_marginTop="10dp"
             android:background="#efb002"
+            android:onClick="clickEfficient"
             android:text="Activity/Efficiency Ratios"
             android:textColor="#ffffff"
             android:textStyle="bold" />
+
     </RelativeLayout>
 
 </ScrollView>
